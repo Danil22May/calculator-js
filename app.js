@@ -12,7 +12,7 @@ const num9 = document.getElementById("9");
 const num0 = document.getElementById("0");
 const plus = document.getElementById("+");
 const result = document.getElementById("=");
-const C = document.getElementById("C");
+const c = document.getElementById("C");
 
 // numbers.forEach((number) => {
 //   console.log(number.textContent);
@@ -27,7 +27,7 @@ num2.addEventListener("click", () => {
 plus.addEventListener("click", () => {
   screen.value += "+";
 });
-C.addEventListener("click", () => {
+c.addEventListener("click", () => {
   screen.value = "";
 });
 result.addEventListener("click", () => {
