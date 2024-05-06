@@ -8,8 +8,6 @@ const num5 = document.getElementById("5");
 const num6 = document.getElementById("6");
 const num7 = document.getElementById("7");
 const num8 = document.getElementById("8");
-const num9 = document.getElementById("9");
-const num0 = document.getElementById("0");
 const plus = document.getElementById("+");
 const result = document.getElementById("=");
 const c = document.getElementById("C");
@@ -37,3 +35,4 @@ result.addEventListener("click", () => {
 fetch("https://jsonplaceholder.typicode.com/photos")
   .then((response) => response.json())
   .then((json) => console.log(json));
+
