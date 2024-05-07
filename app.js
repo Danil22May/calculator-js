@@ -2,7 +2,6 @@ const screen = document.querySelector("#screen");
 const numbers = document.querySelectorAll(".numbers");
 const num1 = document.getElementById("1");
 const num2 = document.getElementById("2");
-const num3 = document.getElementById("3");
 const plus = document.getElementById("+");
 const result = document.getElementById("=");
 const c = document.getElementById("C");
